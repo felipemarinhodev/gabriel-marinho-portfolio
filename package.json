@@ -13,6 +13,7 @@
     "build:web-public": "yarn web-public build",
     "start:web-public": "yarn web-public start",
     "utils": "yarn workspace @gabrielmarinho/utils",
-    "packages": "yarn workspace @gabrielmarinho/packages"
+    "packages": "yarn workspace @gabrielmarinho/packages",
+    "design-system": "yarn workspace @gabrielmarinho/design-system"
   }
 }

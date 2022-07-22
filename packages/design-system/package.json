@@ -1,0 +1,10 @@
+{
+  "name": "@gabrielmarinho/design-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Felipe Marinho <npm@felipemarinho.dev> (https://felipemarinho.dev/)",
+  "license": "MIT",
+  "dependencies": {
+    "styled-components": "^5.3.5"
+  }
+}
