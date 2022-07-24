@@ -1,10 +1,10 @@
 {
-  "name": "@gabrielmarinho/utils",
+  "name": "@gabrielmarinho/tsconfig-commons",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Felipe Marinho <npm@felipemarinho.dev> (https://felipemarinho.dev/)",
   "license": "MIT",
-  "devDependencies": {
-    "@gabrielmarinho/tsconfig-commons": "*"
-  }
+  "files": [
+    "base.json"
+  ]
 }
