@@ -1,0 +1,19 @@
+{
+  "name": "@gabrielmarinho/eslint-commons",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Felipe Marinho <npm@felipemarinho.dev> (https://felipemarinho.dev/)",
+  "license": "MIT",
+  "files": [
+    "base.js"
+  ],
+  "scripts": {
+    "lint": "echo Not necessary!"
+  },
+  "dependencies": {
+    "eslint-config-next": "^12.2.3",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1"
+  }
+}

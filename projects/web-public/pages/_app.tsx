@@ -14,6 +14,8 @@ const theme = {
   },
 };
 
+console.log("teste");
+
 export default function App({ Component, pageProps }) {
   return (
     <>

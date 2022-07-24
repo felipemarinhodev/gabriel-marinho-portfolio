@@ -4,10 +4,14 @@
   "main": "index.js",
   "author": "Felipe Marinho <npm@felipemarinho.dev> (https://felipemarinho.dev/)",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint './**/*.{ts,tsx}'"
+  },
   "dependencies": {
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
-    "@gabrielmarinho/tsconfig-commons": "*"
+    "@gabrielmarinho/tsconfig-commons": "*",
+    "@gabrielmarinho/eslint-commons": "*"
   }
 }
