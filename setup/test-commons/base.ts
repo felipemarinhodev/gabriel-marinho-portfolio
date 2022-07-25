@@ -4,6 +4,7 @@ import path from "path";
 const config: Config.InitialOptions = {
   testEnvironment: "jsdom",
   verbose: true,
+  setupFilesAfterEnv: [path.resolve(__dirname, "src", "setupTests.js")],
   transform: {
     "\\.[jt]sx?$": [
       "babel-jest",
