@@ -5,12 +5,14 @@
   "author": "Felipe Marinho <npm@felipemarinho.dev> (https://felipemarinho.dev/)",
   "license": "MIT",
   "scripts": {
+    "test": "jest",
     "lint": "eslint './**/*.{ts,tsx}'"
   },
   "dependencies": {
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
+    "@gabrielmarinho/test-commons": "*",
     "@gabrielmarinho/tsconfig-commons": "*",
     "@gabrielmarinho/eslint-commons": "*"
   }

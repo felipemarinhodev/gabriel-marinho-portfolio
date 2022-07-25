@@ -18,6 +18,7 @@
     "test:utils": "yarn utils test",
     "packages": "yarn workspace @gabrielmarinho/packages",
     "design-system": "yarn workspace @gabrielmarinho/design-system",
+    "test:design-system": "yarn design-system test",
     "eslint-commons": "yarn workspace @gabrielmarinho/eslint-commons",
     "test-commons": "yarn workspace @gabrielmarinho/test-commons"
   },
