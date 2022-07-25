@@ -14,6 +14,7 @@
     "build:web-public": "yarn web-public build",
     "start:web-public": "yarn web-public start",
     "lint:web-public": "yarn web-public lint",
+    "test:web-public": "yarn web-public test",
     "utils": "yarn workspace @gabrielmarinho/utils",
     "test:utils": "yarn utils test",
     "packages": "yarn workspace @gabrielmarinho/packages",
