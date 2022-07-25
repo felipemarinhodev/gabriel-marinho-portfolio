@@ -1,0 +1,23 @@
+{
+  "name": "@gabrielmarinho/test-commons",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Felipe Marinho <npm@felipemarinho.dev> (https://felipemarinho.dev/)",
+  "license": "MIT",
+  "files": [
+    "base.ts"
+  ],
+  "scripts": {
+    "test": "echo 'Not implemented'",
+    "lint": "echo 'Not implemented'"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "babel-jest": "^28.1.3",
+    "jest": "^27.0.0",
+    "ts-node": "^10.9.1"
+  }
+}

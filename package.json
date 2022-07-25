@@ -15,11 +15,14 @@
     "start:web-public": "yarn web-public start",
     "lint:web-public": "yarn web-public lint",
     "utils": "yarn workspace @gabrielmarinho/utils",
+    "test:utils": "yarn utils test",
     "packages": "yarn workspace @gabrielmarinho/packages",
     "design-system": "yarn workspace @gabrielmarinho/design-system",
-    "eslint-commons": "yarn workspace @gabrielmarinho/eslint-commons"
+    "eslint-commons": "yarn workspace @gabrielmarinho/eslint-commons",
+    "test-commons": "yarn workspace @gabrielmarinho/test-commons"
   },
   "dependencies": {
+    "@types/jest": "^28.1.6",
     "@types/node": "^18.0.6",
     "@types/react": "^18.0.15",
     "@types/styled-components": "^5.1.25",
