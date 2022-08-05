@@ -10,11 +10,9 @@ const GlobalStyle = createGlobalStyle`
 
 const theme = {
   colors: {
-    primary: "#0070f3",
+    primary: "#EDB130",
   },
 };
-
-console.log("teste");
 
 export default function App({ Component, pageProps }) {
   return (
