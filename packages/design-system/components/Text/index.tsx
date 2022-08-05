@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledText = styled.span`
-  font-family: sans-serif;
+  font-family: "poppins, sans-serif";
 `;
 
 interface TextProps {
